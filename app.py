@@ -5,6 +5,7 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
+nltk.data.path.append("./nltk_data")
 
 # Download NLTK resources
 nltk.download('stopwords')
