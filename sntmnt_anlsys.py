@@ -17,7 +17,7 @@ LE=LabelEncoder()
 
 """#Loading File"""
 
-dt=pd.read_csv('/content/product_reviews_dataset.csv')
+dt = pd.read_csv('product_reviews_dataset.csv')
 
 """#Data Summary"""
 
