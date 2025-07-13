@@ -30,7 +30,7 @@ def clean_text(text):
 
 # UI
 st.title("📝 Sentiment Analysis of Product Reviews")
-st.markdown("Enter a product review and find out if it's **Positive**, **Negative**, or **Neutral**.")
+st.markdown("Enter a product review and find out if it's **Good**, **Bad**, or **Neutral**.")
 
 user_input = st.text_area("Enter Review:", "")
 
