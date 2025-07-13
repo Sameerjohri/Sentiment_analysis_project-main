@@ -1,6 +1,6 @@
 
 📝 Sentiment Analysis of Product Reviews using Naive Bayes
-This project applies Natural Language Processing (NLP) and a Multinomial Naive Bayes classifier to perform sentiment analysis on product reviews. It classifies reviews as Positive, Negative, or Neutral based on the review text. A web app built with Streamlit allows users to interactively input a review and receive real-time predictions.
+This project applies Natural Language Processing (NLP) and a Multinomial Naive Bayes classifier to perform sentiment analysis on product reviews. It classifies reviews as Good, Bad, or Neutral based on the review text. A web app built with Streamlit allows users to interactively input a review and receive real-time predictions.
 
 📁 Project Structure
 
@@ -24,11 +24,11 @@ reviewText: Raw customer review text
 
 overall: Rating (1–5) mapped to sentiment:
 
-1–2 → Negative
+1–2 → Bad
 
 3 → Neutral
 
-4–5 → Positive
+4–5 → Good
 
 ⚙️ Workflow
 1. Data Preprocessing
